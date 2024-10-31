@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.col-md-6 {
+  width: 50%;
+}
+
+.soal-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+.soal-item p {
+  margin: 0;
+  font-size: 16px;
+}
+
+table {
+  text-align: center;
+  margin-top: 20px;
+}
+
+td {
+  width: 40px;
+  height: 40px;
+}
+
+td input {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.block {
+  background-color: #000;
+}
+
+/* Tampilan skor mengapung di kanan atas */
+.score-float {
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  font-size: 18px;
+  background-color: #ffeb3b;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #333;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
